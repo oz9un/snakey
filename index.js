@@ -1,6 +1,6 @@
 window.onload = () => {
     const details = document.getElementById("lux");
-    details.innerHTML = +"maksldm";
+    details.innerHTML = +"deneme";
 
     
     // Feature detection
@@ -10,7 +10,7 @@ window.onload = () => {
 
           // Detect changes in the light
           sensor.onreading = () => {
-            details.innerHTML = sensor.illuminance;
+            details.innerHTML += sensor.illuminance;
             
               // Read the light levels in lux 
               // < 50 is dark room
