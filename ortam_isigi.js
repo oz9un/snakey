@@ -1,5 +1,6 @@
 window.onload = () => {
     const details = document.getElementById("lux");
+    details.innerHTML += "";
     
     // Feature detection
     if (window.AmbientLightSensor){
