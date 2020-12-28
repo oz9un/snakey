@@ -1,5 +1,5 @@
-const details = document.getElementById("lux");
-details.innerHTML = 'ozgun';
+window.onload = () => {
+    const details = document.getElementById("lux");
     
     // Feature detection
     if (window.AmbientLightSensor){
@@ -28,3 +28,4 @@ details.innerHTML = 'ozgun';
     } else {
       details.innerHTML = 'It looks like your browser doesnt support this feature'; 
     }
+}
