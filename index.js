@@ -1,6 +1,6 @@
 window.onload = () => {
     const details = document.getElementById("lux");
-    details.innerHTML = "maksldm";
+    details.innerHTML = +"maksldm";
 
     
     // Feature detection
