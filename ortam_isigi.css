@@ -1,16 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
 .darkEnv{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Playfair Display SC', serif;
     text-align: center;
     font-size: 50px;
     color: white;
     background-color: black;
 }
 
+.mediumEnv{
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    background-color: gray;
+    color: black;
+    font-size: 50px;
+}
+
 .brightEnv{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Playfair Display SC', serif;
     text-align: center;
     background-color: white;
     color: black;
