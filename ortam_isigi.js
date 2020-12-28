@@ -9,13 +9,17 @@ window.onload = () => {
 
           // Detect changes in the light
           sensor.onreading = () => {
-            details.innerHTML += sensor.illuminance;
+            details.innerHTML = sensor.illuminance;
             
               // Read the light levels in lux 
               // < 50 is dark room
               if (sensor.illuminance < 50) {
                 document.body.className = 'darkEnv';
-              } else {
+              } 
+              else if(sensor.illuminance < 150) {
+                document.body.className = 'mediumEnv';   
+              }
+              else {
                 document.body.className = 'brightEnv';
               }
           }
