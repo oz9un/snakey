@@ -1,5 +1,7 @@
 window.onload = () => {
     const details = document.getElementById("lux");
+    details.innerHTML = "maksldm";
+
     
     // Feature detection
     if (window.AmbientLightSensor){
