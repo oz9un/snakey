@@ -1,7 +1,5 @@
 window.onload = () => {
     const details = document.getElementById("lux");
-    details.innerHTML = +"deneme";
-
     
     // Feature detection
     if (window.AmbientLightSensor){
