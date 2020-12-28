@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.darkEnv{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+
+.brightEnv{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 50px;
+}
