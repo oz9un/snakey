@@ -1,4 +1,5 @@
 const details = document.getElementById("lux");
+details.innerHTML = 'ozgun';
     
     // Feature detection
     if (window.AmbientLightSensor){
