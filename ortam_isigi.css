@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+
+#aciklama {
+  color: red;   
+}
+
 .darkEnv{
     font-family: 'Playfair Display SC', serif;
     text-align: center;
