@@ -1,5 +1,6 @@
 window.onload = () => {
     const details = document.getElementById("lux");
+    const aciklama = document.getElementById("aciklama");
     details.innerHTML += "";
     
     // Feature detection
@@ -15,12 +16,15 @@ window.onload = () => {
               // < 50 is dark room
               if (sensor.illuminance < 50) {
                 document.body.className = 'darkEnv';
+                aciklama.innerHTML = 'Karanlık ortam';
               } 
               else if(sensor.illuminance < 150) {
-                document.body.className = 'mediumEnv';   
+                document.body.className = 'mediumEnv';
+                aciklama.innerHTML = 'Yarı aydınlık ortam';
               }
               else {
                 document.body.className = 'brightEnv';
+                aciklama.innerHTML = 'Aydınlık ortam';
               }
           }
           
