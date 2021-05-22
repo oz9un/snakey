@@ -1,0 +1,30 @@
+html,body {
+    height: 100%;
+}
+
+#game-screen {
+    width: 80vh;
+    height: 60vh;
+    background-color: snow;
+    padding: 0;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 0 0 50px #000;
+        box-shadow: 0 0 50px #000;
+}
+
+.square {
+    background-color: red;
+    border: solid 1px black;
+}       
+
+.snake {
+    background-color: darkgreen;
+}
+
+.apple {
+    background-color: red;
+}
+
+.game-over {
+    background-color: black;
+}
