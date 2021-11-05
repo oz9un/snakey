@@ -60,7 +60,7 @@ const adjustGameScreen = () => {
 
 
 // Fill the game-screen with squares, aka: pixels.
-const createSquares = () => {DOWN) {
+const createSquares = () => {
     while(gameScreen.firstChild) {
         gameScreen.removeChild(gameScreen.lastChild)
     }
