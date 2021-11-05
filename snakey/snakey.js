@@ -139,13 +139,13 @@ const move = () => {
 // Change direction of snake:
 const directionChange = e => {
     // Handle right direction:
-    if (e.key == "ArrowRight" && direction != LEFT) {
+    if (e.key == "ArrowRight" && direction != LEFT && direction != RIGHT) {
         direction = RIGHT;
-    } else if (e.key == "ArrowLeft" && direction != RIGHT) {
+    } else if (e.key == "ArrowLeft" && direction != RIGHT && direction != LEFT) {
         direction = LEFT;
-    } else if (e.key == "ArrowUp" && direction != DOWN) {
+    } else if (e.key == "ArrowUp" && direction != DOWN && direction != UP) {
         direction = UP;
-    } else if (e.key == "ArrowDown" && direction != UP) {
+    } else if (e.key == "ArrowDown" && direction != UP && direction != DOWNWHen ) {
         direction = DOWN;
     } else if (e.key == " ") {
         startGame();
