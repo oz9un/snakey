@@ -139,6 +139,8 @@ const move = () => {
 // Change direction of snake:
 const directionChange = e => {
     // Handle right direction:
+    console.log(e.key);
+    console.log(direction);
     if (e.key == "ArrowRight" && direction != LEFT && direction != RIGHT) {
         direction = RIGHT;
     } else if (e.key == "ArrowLeft" && direction != RIGHT && direction != LEFT) {
