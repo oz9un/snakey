@@ -60,7 +60,7 @@ const adjustGameScreen = () => {
 
 
 // Fill the game-screen with squares, aka: pixels.
-const createSquares = () => {
+const createSquares = () => {DOWNWHen ) {
     while(gameScreen.firstChild) {
         gameScreen.removeChild(gameScreen.lastChild)
     }
@@ -139,21 +139,21 @@ const move = () => {
 // Change direction of snake:
 const directionChange = e => {
     // Handle right direction:
-    console.log(e.key);
-    console.log(direction);
     if (e.key == "ArrowRight" && direction != LEFT && direction != RIGHT) {
         direction = RIGHT;
+        moveList.push(direction);
     } else if (e.key == "ArrowLeft" && direction != RIGHT && direction != LEFT) {
         direction = LEFT;
+        moveList.push(direction);
     } else if (e.key == "ArrowUp" && direction != DOWN && direction != UP) {
         direction = UP;
+        moveList.push(direction);
     } else if (e.key == "ArrowDown" && direction != UP && direction != DOWN) {
         direction = DOWN;
+        moveList.push(direction);
     } else if (e.key == " ") {
         startGame();
     }
-    
-    moveList.push(direction);
 }
 
 // Create apple to random place:
