@@ -145,7 +145,7 @@ const directionChange = e => {
         direction = LEFT;
     } else if (e.key == "ArrowUp" && direction != DOWN && direction != UP) {
         direction = UP;
-    } else if (e.key == "ArrowDown" && direction != UP && direction != DOWNWHen ) {
+    } else if (e.key == "ArrowDown" && direction != UP && direction != DOWN) {
         direction = DOWN;
     } else if (e.key == " ") {
         startGame();
