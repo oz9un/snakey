@@ -45,8 +45,8 @@ var apples = [];
 var moveList = [];
 
 const adjustGameScreen = () => {
-    pixelw = window.innerWidth - ( window.innerWidth % pixelSize) - 400
-    pixelh = window.innerHeight - ( window.innerHeight % pixelSize) - 100
+    pixelw = gameScreen.getBoundingClientRect().width - ( gameScreen.getBoundingClientRect().width % pixelSize)
+    pixelh = gameScreen.getBoundingClientRect().height - ( gameScreen.getBoundingClientRect().height % pixelSize)
 
     horizontalSquareCount = pixelw / pixelSize;
     verticalSquareCount = pixelh / pixelSize;
