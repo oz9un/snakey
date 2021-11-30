@@ -17,7 +17,7 @@ const startButton = document.getElementById('startButton');
 
 // Global variables:
 var squaresArray = [];
-const gameSpeedInitial = 100;
+const gameSpeedInitial = 500;
 var gameSpeed = gameSpeedInitial;
 var snakeArray = [2,1,0];
 const pixelSize = 25;
