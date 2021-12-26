@@ -158,7 +158,7 @@ const directionChange = e => {
 
 // Create apple to random place:
 const createApple = () => {
-    for(let x=appleCount; x<2; x++){
+    for(let x=appleCount; x<5; x++){
         let randomPlace;
         do {
             randomPlace = Math.floor(Math.random() * squaresArray.length);
